@@ -1,0 +1,15 @@
+﻿#过滤txt文件、压缩文件 
+*.txt
+*.zip  
+*.rar
+*.log
+*.z
+*.pickle
+*.xls
+*.xlsx
+*.json
+*.pdf
+
+# 跟踪文件 python、jupyter notebook  
+!*.py
+!*.ipynb
