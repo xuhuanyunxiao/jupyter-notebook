@@ -9,6 +9,7 @@
 *.xlsx
 *.json
 *.pdf
+*.db
 
 # 跟踪文件 python、jupyter notebook  
 !*.py
