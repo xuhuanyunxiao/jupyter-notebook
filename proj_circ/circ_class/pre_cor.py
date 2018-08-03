@@ -4,7 +4,7 @@ from __future__ import division
 import re
 import jieba
 from string import digits
-
+import dict_dbutils
 stopwords = {}
 stw = open("corpus/stop_words_cor.txt", encoding='UTF-8')
 for ws in stw:
@@ -16,7 +16,9 @@ stw.close()
 jieba.load_userdict('corpus/company.txt')
 jieba.load_userdict('corpus/user_dict.txt')
 jieba.load_userdict('corpus/bank_dict.txt')
-
+#添加机构名
+for w in set(dict_dbutils.get_dicts().keys()):
+    jieba.add_word(w)
 
 def handle_contents(l_contents):
     lines = []

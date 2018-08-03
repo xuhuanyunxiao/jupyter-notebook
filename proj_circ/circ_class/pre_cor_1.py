@@ -4,7 +4,7 @@ from __future__ import division
 import re
 import jieba
 from string import digits
-
+import dict_dbutils
 stopwords = {}
 stw = open("corpus/stop_words_cor.txt", encoding='UTF-8')
 for ws in stw:
@@ -13,9 +13,13 @@ for ws in stw:
     stopwords[ws] = 1
 stw.close()
 
-jieba.load_userdict('corpus/user_dict.txt')
-jieba.load_userdict('corpus/bank_dict_20180704.txt')
-jieba.load_userdict('corpus/neg_words_20180704.txt')
+jieba.load_userdict('corpus/insurance_dict_20180731.txt')
+# jieba.load_userdict('corpus/company.txt')
+# jieba.load_userdict('corpus/user_dict.txt')
+# jieba.load_userdict('corpus/bank_dict.txt')
+# #添加机构名
+# for w in set(dict_dbutils.get_dicts().keys()):
+#     jieba.add_word(w)
 
 def handle_contents(l_contents):
     lines = []
@@ -33,7 +37,7 @@ def handle_content(content):
         line = ""
         remove_words = []
         raw = clear_sen(raw)
-        word_list = filter(lambda x: len(x) > 0, map(etl, jieba.cut(raw, cut_all=False)))
+        word_list = filter(lambda x: len(x) > 1, map(etl, jieba.cut(raw, cut_all=False)))
         ll = list(word_list)
         for wd in ll:
             if wd in stopwords:
@@ -44,7 +48,7 @@ def handle_content(content):
                 word_list_1.append(l)
 
         for wd in word_list_1:
-            line = line + wd + " "
+            line = line + wd.strip() + " "
     return line
 
 
