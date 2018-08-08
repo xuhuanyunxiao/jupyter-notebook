@@ -11,6 +11,14 @@
 *.pdf
 *.db
 
+# 过滤文件夹
+pythreejs/
+Chinese-Annotator/
+concrete_NLP_tutorial/
+ThinkStats2-master/
+ThinkBayes-master/
+lime/
+
 # 跟踪文件 python、jupyter notebook  
 !*.py
 !*.ipynb
