@@ -10,6 +10,8 @@
 *.json
 *.pdf
 *.db
+*.csv
+*.7z
 
 # 过滤文件夹
 pythreejs/
@@ -18,6 +20,8 @@ concrete_NLP_tutorial/
 ThinkStats2-master/
 ThinkBayes-master/
 lime/
+blaze-tutorial/
+Analytics_Vidhya/
 
 # 跟踪文件 python、jupyter notebook  
 !*.py
