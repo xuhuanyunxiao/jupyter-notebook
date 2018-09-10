@@ -22,7 +22,11 @@ ThinkBayes-master/
 lime/
 blaze-tutorial/
 Analytics_Vidhya/
+superminhash/
 
 # 跟踪文件 python、jupyter notebook  
 !*.py
 !*.ipynb
+
+# 跟踪文件夹
+# !/mtk/one.txt

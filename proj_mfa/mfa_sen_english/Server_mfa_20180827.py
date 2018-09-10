@@ -31,7 +31,6 @@ correlation_pipeline = joblib.load("model/mfa_cor_0809_2.pkl.z")
 def judge_correlation_i():
     """
     判断相关性：二分类模型，判断某条数据（新闻）是否是行业、机构相关
-    相关性模型替换成八分类模型
     """
     start_time = datetime.now()
     records = request.json['record']
@@ -59,6 +58,44 @@ def judge_correlation_i():
            'elapsed_time': '%0.2f'%((datetime.now() - start_time).seconds)}
 
     return jsonify(ret)
+
+#%% 相关性预测模型
+#sensitivity_pipeline = joblib.load("model/mfa_sen_0830.pkl.z")
+#joblib.dump(sensitivity_pipeline, "model/mfa_sen_0830_2.pkl.z")
+sensitivity_pipeline = joblib.load("model/mfa_sen_0830_2.pkl.z")
+
+@app.route('/judge_sensitivity', methods=['POST'])
+def judge_sensitivity():
+    """
+    判断敏感性
+    """
+    start_time = datetime.now()
+    records = request.json['record']
+    logger.info('starting judge_sensitivity, {list_size: %d}' % (len(records)))
+
+    # 预处理
+    words_list = pre.handle_contents([record['title'] + '。' + record['content'] \
+                                          for record in records])
+
+    # 敏感判断
+    # 1是敏感，0是不敏感
+    sensitivity_res = sensitivity_pipeline.predict(words_list)
+
+    ret_list = []
+    for index, record_result in enumerate(records):
+        id = int(record_result['id'])
+        cor = int(sensitivity_res[index])
+
+        ret_list.append({'id': id, 'cor': cor})
+
+    # 返回结果
+    logger.info('end judge_sensitivity: {ret_list: %d, lost_seconds: %ds}' % (
+        len(ret_list), (datetime.now() - start_time).seconds))
+    ret = {'docs': ret_list, 
+           'elapsed_time': '%0.2f'%((datetime.now() - start_time).seconds)}
+
+    return jsonify(ret)
+
 
 #%%
 if __name__ == '__main__':
