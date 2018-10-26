@@ -23,6 +23,8 @@ lime/
 blaze-tutorial/
 Analytics_Vidhya/
 superminhash/
+intro_ds/
+sentiment-analysis/
 
 # 跟踪文件 python、jupyter notebook  
 !*.py
