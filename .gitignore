@@ -25,6 +25,8 @@ Analytics_Vidhya/
 superminhash/
 intro_ds/
 sentiment-analysis/
+github_proj/
+book_notebook/
 
 # 跟踪文件 python、jupyter notebook  
 !*.py
