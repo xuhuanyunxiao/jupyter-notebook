@@ -36,3 +36,4 @@ book_notebook/
 # !/mtk/one.txt
 !/useful_notebook/thinkstats.pdf
 !/useful_notebook/*.pdf
+!/python ML & DL/*.pdf
