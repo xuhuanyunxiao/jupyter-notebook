@@ -1,0 +1,240 @@
+embeddings {
+tensor_name: "sin:00000"
+tensor_path: "00000/sin/tensors.tsv"
+metadata_path: "00000/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00000"
+tensor_path: "00000/cos/tensors.tsv"
+metadata_path: "00000/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00000"
+tensor_path: "00000/tan/tensors.tsv"
+metadata_path: "00000/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00001"
+tensor_path: "00001/sin/tensors.tsv"
+metadata_path: "00001/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00001"
+tensor_path: "00001/cos/tensors.tsv"
+metadata_path: "00001/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00001"
+tensor_path: "00001/tan/tensors.tsv"
+metadata_path: "00001/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00002"
+tensor_path: "00002/sin/tensors.tsv"
+metadata_path: "00002/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00002"
+tensor_path: "00002/cos/tensors.tsv"
+metadata_path: "00002/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00002"
+tensor_path: "00002/tan/tensors.tsv"
+metadata_path: "00002/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00003"
+tensor_path: "00003/sin/tensors.tsv"
+metadata_path: "00003/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00003"
+tensor_path: "00003/cos/tensors.tsv"
+metadata_path: "00003/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00003"
+tensor_path: "00003/tan/tensors.tsv"
+metadata_path: "00003/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00004"
+tensor_path: "00004/sin/tensors.tsv"
+metadata_path: "00004/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00004"
+tensor_path: "00004/cos/tensors.tsv"
+metadata_path: "00004/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00004"
+tensor_path: "00004/tan/tensors.tsv"
+metadata_path: "00004/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00005"
+tensor_path: "00005/sin/tensors.tsv"
+metadata_path: "00005/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00005"
+tensor_path: "00005/cos/tensors.tsv"
+metadata_path: "00005/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00005"
+tensor_path: "00005/tan/tensors.tsv"
+metadata_path: "00005/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00006"
+tensor_path: "00006/sin/tensors.tsv"
+metadata_path: "00006/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00006"
+tensor_path: "00006/cos/tensors.tsv"
+metadata_path: "00006/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00006"
+tensor_path: "00006/tan/tensors.tsv"
+metadata_path: "00006/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00007"
+tensor_path: "00007/sin/tensors.tsv"
+metadata_path: "00007/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00007"
+tensor_path: "00007/cos/tensors.tsv"
+metadata_path: "00007/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00007"
+tensor_path: "00007/tan/tensors.tsv"
+metadata_path: "00007/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00008"
+tensor_path: "00008/sin/tensors.tsv"
+metadata_path: "00008/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00008"
+tensor_path: "00008/cos/tensors.tsv"
+metadata_path: "00008/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00008"
+tensor_path: "00008/tan/tensors.tsv"
+metadata_path: "00008/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00009"
+tensor_path: "00009/sin/tensors.tsv"
+metadata_path: "00009/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00009"
+tensor_path: "00009/cos/tensors.tsv"
+metadata_path: "00009/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00009"
+tensor_path: "00009/tan/tensors.tsv"
+metadata_path: "00009/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00010"
+tensor_path: "00010/sin/tensors.tsv"
+metadata_path: "00010/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00010"
+tensor_path: "00010/cos/tensors.tsv"
+metadata_path: "00010/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00010"
+tensor_path: "00010/tan/tensors.tsv"
+metadata_path: "00010/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00011"
+tensor_path: "00011/sin/tensors.tsv"
+metadata_path: "00011/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00011"
+tensor_path: "00011/cos/tensors.tsv"
+metadata_path: "00011/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00011"
+tensor_path: "00011/tan/tensors.tsv"
+metadata_path: "00011/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00012"
+tensor_path: "00012/sin/tensors.tsv"
+metadata_path: "00012/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00012"
+tensor_path: "00012/cos/tensors.tsv"
+metadata_path: "00012/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00012"
+tensor_path: "00012/tan/tensors.tsv"
+metadata_path: "00012/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00013"
+tensor_path: "00013/sin/tensors.tsv"
+metadata_path: "00013/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00013"
+tensor_path: "00013/cos/tensors.tsv"
+metadata_path: "00013/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00013"
+tensor_path: "00013/tan/tensors.tsv"
+metadata_path: "00013/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00014"
+tensor_path: "00014/sin/tensors.tsv"
+metadata_path: "00014/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00014"
+tensor_path: "00014/cos/tensors.tsv"
+metadata_path: "00014/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00014"
+tensor_path: "00014/tan/tensors.tsv"
+metadata_path: "00014/tan/metadata.tsv"
+}
+embeddings {
+tensor_name: "sin:00015"
+tensor_path: "00015/sin/tensors.tsv"
+metadata_path: "00015/sin/metadata.tsv"
+}
+embeddings {
+tensor_name: "cos:00015"
+tensor_path: "00015/cos/tensors.tsv"
+metadata_path: "00015/cos/metadata.tsv"
+}
+embeddings {
+tensor_name: "tan:00015"
+tensor_path: "00015/tan/tensors.tsv"
+metadata_path: "00015/tan/metadata.tsv"
+}

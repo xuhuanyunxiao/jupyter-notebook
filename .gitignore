@@ -4,6 +4,7 @@
 *.rar
 *.log
 *.z
+*.gz
 *.pickle
 *.xls
 *.xlsx
@@ -27,6 +28,7 @@ intro_ds/
 sentiment-analysis/
 github_proj/
 book_notebook/
+useful_notebook/tensorboard_log/
 
 # 跟踪文件 python、jupyter notebook  
 !*.py
