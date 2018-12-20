@@ -29,6 +29,7 @@ sentiment-analysis/
 github_proj/
 book_notebook/
 useful_notebook/tensorboard_log/
+useful_notebook/mnist/
 
 # 跟踪文件 python、jupyter notebook  
 !*.py
