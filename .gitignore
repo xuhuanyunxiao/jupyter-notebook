@@ -13,6 +13,9 @@
 *.db
 *.csv
 *.7z
+*.npy
+*.model
+*.vector
 
 # 过滤文件夹
 pythreejs/
