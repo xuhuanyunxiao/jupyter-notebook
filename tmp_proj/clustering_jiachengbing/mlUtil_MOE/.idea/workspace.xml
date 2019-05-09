@@ -12,7 +12,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/mfa$job_cluster.coverage" NAME="job_cluster Coverage Results" MODIFIED="1555494260533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mfa$cluster_job.coverage" NAME="cluster_job Coverage Results" MODIFIED="1556272955738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scheduler" />
+    <SUITE FILE_PATH="coverage/mfa$cluster_job.coverage" NAME="cluster_job Coverage Results" MODIFIED="1557301031337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scheduler" />
     <SUITE FILE_PATH="coverage/mfa$db_mysql.coverage" NAME="db_mysql Coverage Results" MODIFIED="1555493404840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dao/mysql" />
     <SUITE FILE_PATH="coverage/mfa$base_data_view.coverage" NAME="base_data_view Coverage Results" MODIFIED="1555492448276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dao/mysql" />
     <SUITE FILE_PATH="coverage/mfa$scheduler.coverage" NAME="scheduler Coverage Results" MODIFIED="1556077322979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scheduler" />
@@ -24,8 +24,8 @@
       <file leaf-file-name="cluster_job.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scheduler/cluster_job.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+            <state relative-caret-position="216">
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
               <folding>
                 <element signature="e#47#96#0" expanded="true" />
               </folding>
@@ -33,41 +33,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="job_cluster.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/job_cluster.py">
+      <file leaf-file-name="dbscan_twice_cluster.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster/dbscan/dbscan_twice_cluster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+            <state relative-caret-position="168">
+              <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
               <folding>
-                <element signature="e#47#94#0" expanded="true" />
+                <element signature="e#47#62#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cluster_result.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/mysql/cluster_result.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" selection-start-line="21" selection-end-line="33" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mer_cluster_result.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/mysql/mer_cluster_result.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sub_cluster_result.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/mysql/sub_cluster_result.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -148,6 +121,7 @@
         <option value="$PROJECT_DIR$/scheduler/scheduler.py" />
         <option value="$PROJECT_DIR$/dao/mysql/mer_cluster_result.py" />
         <option value="$PROJECT_DIR$/dao/mysql/sub_cluster_result.py" />
+        <option value="$PROJECT_DIR$/cluster/dbscan/dbscan_twice_cluster.py" />
         <option value="$PROJECT_DIR$/scheduler/cluster_job.py" />
       </list>
     </option>
@@ -345,7 +319,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,23 +329,13 @@
             <path>
               <item name="mfa" type="b2602c69:ProjectViewProjectNode" />
               <item name="mlUtil_MOE" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mfa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mlUtil_MOE" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mfa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mlUtil_MOE" type="462c0819:PsiDirectoryNode" />
               <item name="scheduler" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -742,15 +705,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50075644" side_tool="true" weight="0.5148515" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49924356" visible="true" weight="0.50825083" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49924356" visible="true" weight="0.31023103" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.26626325" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.28668684" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -806,7 +770,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="105" />
+      <option name="time" value="106" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -932,16 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluster/dbscan/dbscan_twice_cluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7337">
-          <caret line="333" lean-forward="true" selection-start-line="333" selection-end-line="333" />
-          <folding>
-            <element signature="e#47#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/scheduler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1610">
@@ -977,47 +931,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
           <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding>
-            <element signature="e#42#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/mysql/mer_cluster_result.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
+        <state relative-caret-position="483">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/mysql/cluster_result.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="460">
           <caret line="21" selection-start-line="21" selection-end-line="33" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dao/mysql/sub_cluster_result.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="66" />
+        <state relative-caret-position="276">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/job_cluster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+        <state relative-caret-position="23">
+          <caret line="74" column="59" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster/dbscan/dbscan_twice_cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
           <folding>
-            <element signature="e#47#94#0" expanded="true" />
+            <element signature="e#47#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scheduler/cluster_job.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+        <state relative-caret-position="216">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
           <folding>
             <element signature="e#47#96#0" expanded="true" />
           </folding>

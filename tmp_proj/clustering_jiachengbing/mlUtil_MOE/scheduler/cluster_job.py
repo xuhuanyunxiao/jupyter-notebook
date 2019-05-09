@@ -83,8 +83,10 @@ def save_en_sub_result(sub_cluster_results, sub_save_file_path):
              "site_count", "cluster_result_id", "cluster_type",
              "language_type", "group_id", "is_manual",
              "manual_id", "subtopic_id", "create_time"]
+    data = pd.DataFrame(cluster_results, columns=attrs)
+    data.to_excel(sub_save_file_path, index=False)
 
-def save_en_result(cluster_results, save_file_path):
+def save_en_result(merger_cluster_results, save_file_path):
     create_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
     # 保存sub_cluster_result
@@ -143,5 +145,5 @@ def cluster_job(file_path, language_type):
 
 
 if __name__ == "__main__":
-    cluster_job("corpus/corpus_en_20190426070934.json", 1)
-    # cluster_job("corpus/corpus_zh_20190426070934.json", 0)
+    cluster_job("corpus/corpus_en_7_20190508082141.json", 1) # 英
+    # cluster_job("corpus/corpus_zh_7_20190508082141.json", 0) # 中

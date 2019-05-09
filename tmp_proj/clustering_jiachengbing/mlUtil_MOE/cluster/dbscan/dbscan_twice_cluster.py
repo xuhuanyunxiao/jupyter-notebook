@@ -61,6 +61,7 @@ def first_cluster(corpus, vectors, save_group_id, language_type):
 
 def dbscan_cluster(vectors, size, save_group_id, is_content=False):
     _eps, _min_samples = get_eps_min(size, save_group_id, is_content)
+    _min_samples = 1
     dbscan = DBSCAN(eps=_eps, min_samples=_min_samples)
     dbscan.fit_predict(vectors)
     return dbscan.labels_
